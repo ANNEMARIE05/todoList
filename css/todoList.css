@@ -1,0 +1,76 @@
+.container{
+  width: 60%;
+  margin: 5rem auto;
+  box-shadow: 0 0 30px rgb(238, 238, 238);
+  border-radius: 10px;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+  padding: 2rem;
+}
+.container h1{
+  text-align: center;
+}
+input[type=text]{
+  outline: none;
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid #DEDEDE;
+  height: 25px;
+}
+input[type=text]:focus{
+  border: 1px solid #DB9B19;
+}
+input[type=button]{
+  height: 40px;
+  border-radius: 5px;
+  width: 17%;
+  background-color: #DB9B19;
+  color: #FFF;
+  border: none;
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 3rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+thead {
+  background-color: coral;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+.edite{
+  outline: none;
+  background-color: skyblue;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.delete{
+  outline: none;
+  background-color: rgb(242, 9, 75);
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 5px;
+}

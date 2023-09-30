@@ -5,17 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/todoList.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
     
-    <input type="text" name="" id="nom">
-    <input type="text" name="" id="prenom">
-    <input type="text" name="" id="specialite">
-    <input type="text" name="" id="nationnalite">
-    <button>envoyer</button>
+    <div class="container">
+        <h1>BIENVENUE <span ></span> DANS TA TODOLIST</h1>
+        <form action="#!">
+            <input type="text" id="tache" placeholder="Entrez une nouvelle tâche ici "> <input type="button" value="Enregistrer">
+        </form>
 
+        <table>
+            <thead>
+              <tr>
+                <th>#ID</th>
+                <th>TÂCHES</th>
+                <th>ACTIONS</th>
+              </tr>
+            </thead>
+            <tbody>
 
-
+            </tbody>
+          </table>
+    </div>
     <script src="../js/todoList.js"></script>
+    <script src="connex.html"></script>
 </body>
 </html>
