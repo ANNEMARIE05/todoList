@@ -34,5 +34,5 @@ document.getElementById("submit").addEventListener('click', function (event) {
     registerPerson(username, email, contact, password);
     
     // Optionally, you can redirect to another page or perform other actions after registration.
-    window.location.pathname = "/pages/connex.html";
+    window.location.pathname = "/todoList/pages/connex.html";
 });
