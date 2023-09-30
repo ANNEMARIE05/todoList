@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 9vh;
+    background-color: #9A616D;
+    width: 100%;
+    padding: 1.7rem;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header span{
+    color: #000;
+}
+header h1{
+    font-family: cursive;
+    color: #FFF;
+}
+header nav div ul{
+    display: flex;
+}
+ul a{
+    list-style: none;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #FFF;
+}
+ul li:hover{
+    color: #e7dfdf;
+}
+.menu{
+    height: 73vh;
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu img{
+    width: 100%;
+    height: 100%;
+}
+.menu div{
+    padding: 1rem;
+    height: 55vh;
+    width: 50%;
+    margin: 1rem;
+}
+.menu h3{
+    text-align: left;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: 6rem;
+}
+.menu button{
+    height: 5vh;
+    width: 16vw;
+    margin: 4rem 0 0;
+    border: 1px solid #9A616D;
+    border-radius: 25px;
+    background-color: #FFF;
+    color: #9A616D;
+}
+.menu button:hover{
+    background-color: #e7dfdf;
+}
+footer{
+    height: 15vh;
+    width: 100%;
+    padding: 2.5rem;
+    background-color: #9A616D;
+}
+footer span{
+    color: #000;
+}
+footer h1{
+    font-family: cursive;
+    color: #FFF;
+}
+footer h6{
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
+}
+footer a{
+    color: #000;
+    text-decoration: none;
+  }
